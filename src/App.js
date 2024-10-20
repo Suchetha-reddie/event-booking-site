@@ -1,22 +1,23 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Events from "./pages/Events";
-import Profile from "./pages/Profile";
-import "./App.css";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Events from './pages/Events';
+import EventDetails from './pages/EventDetails';
+import UserProfile from './pages/UserProfile';
 
-function App() {
+const App = () => {
     return (
         <Router>
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/events" element={<Events />} />
-                <Route path="/profile" element={<Profile />} />
+                <Route path="/events/:id" element={<EventDetails />} />
+                <Route path="/profile" element={<UserProfile />} />
             </Routes>
         </Router>
     );
-}
+};
 
 export default App;
