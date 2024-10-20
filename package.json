@@ -17,7 +17,7 @@
     "deploy": "gh-pages -d build"
 }
 ,
-  "homepage": "https://shivasaijului.github.io/event-booking-site",
+  "homepage": "https://Suchetha-reddie.github.io/event-booking-site",
   "browserslist": {
     "production": [
       ">0.2%",
