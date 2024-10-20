@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/event-booking-site/static/css/main.d152c587.css",
-    "main.js": "/event-booking-site/static/js/main.51db0483.js",
+    "main.css": "/event-booking-site/static/css/main.4687e842.css",
+    "main.js": "/event-booking-site/static/js/main.e759acfc.js",
     "index.html": "/event-booking-site/index.html",
-    "main.d152c587.css.map": "/event-booking-site/static/css/main.d152c587.css.map",
-    "main.51db0483.js.map": "/event-booking-site/static/js/main.51db0483.js.map"
+    "main.4687e842.css.map": "/event-booking-site/static/css/main.4687e842.css.map",
+    "main.e759acfc.js.map": "/event-booking-site/static/js/main.e759acfc.js.map"
   },
   "entrypoints": [
-    "static/css/main.d152c587.css",
-    "static/js/main.51db0483.js"
+    "static/css/main.4687e842.css",
+    "static/js/main.e759acfc.js"
   ]
 }
